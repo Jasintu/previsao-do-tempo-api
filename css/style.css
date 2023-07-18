@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*classes de input*/
+
+#input-info{
+    width: 250px;
+/*--------------------------*/
+    background-color: 
+    #38343c;
+    color: aliceblue;
+    border: #171718;
+    /*--------------------------*/
+    font-size: medium;
+}
+
+#input-info:focus {
+    /*Estilos quando o input está em foco*/
+    outline: 1px solid rgb(136, 134, 134);
+    background-color: #28282b;
+    color: antiquewhite;
+}
+
+#input-info:hover {
+    /*Estilos quando o input está em foco*/
+    background-color: #262627;
+}
+
+#input-info::placeholder {
+    color: rgb(116, 115, 114);
+}
+
+/*-------------------------------------------*/
+
+/*configuraçoes de exibiçao de estatísticas*/
+
+#showTemp{
+    color: aliceblue;
+    /*-----------------------------------*/
+}
+
+/*-------------------------------------------*/
+
+/*configuraçao botao de pesquisa*/
+
+.material-symbols-outlined{
+    /*símbolo*/
+    padding-top: 5px;
+    /*------------------------------*/
+    color: rgb(161, 158, 154);
+}
+
+#buttonSearch{
+    height: 43px;
+}
+
+/*------------------------------------------------*/
