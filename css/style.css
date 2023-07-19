@@ -6,7 +6,6 @@
 /*classes de input*/
 
 #input-info{
-    width: 250px;
 /*--------------------------*/
     background-color: 
     #38343c;
@@ -39,7 +38,36 @@
 #showTemp{
     color: aliceblue;
     /*-----------------------------------*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -400%);
 }
+
+#divCountryName{
+    display: flex;
+    color: aliceblue;
+    /*-----------------------------------*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -280%);
+}
+
+#weather{
+    display: flex;
+    color: aliceblue;
+    /*-----------------------------------*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 80%);
+}
+
+#sigle{
+    margin-left: 5px;
+}
+
 
 /*-------------------------------------------*/
 
@@ -55,5 +83,21 @@
 #buttonSearch{
     height: 43px;
 }
+
+/*configuraçoes de exibiçao de barra de pesquisa*/
+#searchBar{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+}
+
+/*.centralizar-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
 
 /*------------------------------------------------*/
