@@ -14,13 +14,14 @@ $("#buttonSubmit").click(function (e) {
     success: function (response) {
       console.log(response)
       //exibiçao de temperatura
-      $("#showTemp").text(Math.round(response.main.temp) + "°C")
+      $("#showTemp").text(Math.round(response.main.temp))
+      $("#c").css({"display" : "flex"})
       //exibiçao nome do pais
       $("#country").text(response.name + ",")
       //exibiçao sigla
       $("#sigle").text(response.sys.country + " 📍")
       //exibiçao 
-      $("#weather").text(response.weather[0].main)
+      $("#weather").text(response.weather[0].description)
 
       //-----------------------------------------------------------------------------
     }
